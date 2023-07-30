@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    boxShadow: {
+                        'shadowBut': '0 0 15px #aaa',
+                    }
+                }
+            }
+        }
+    </script>
+    <title>home page</title>
+</head>
+<body class="bg-purple-200" dir="rtl">
+<header class="h-16 bg-white shadow-shadowBut flex justify-between items-center lg:h-20">
+    <div class="logo mr-5 sm:mr-10 lg:mr-14">
+        <h1 class="text-2xl">اکانت هاب</h1>
+    </div>
+    <div class="login ml-5 sm:ml-10 lg:ml-14">
+        <a class="p-1.5 text-lg shadow-md border-2 border-purple-600 bg-purple-600 text-white rounded-md hover:bg-white hover:text-purple-600 transition-all duration-500 lg:p-2.5"
+           href="#">حساب کاربری</a>
+    </div>
+</header>
+<article class="bg-white w-11/12 m-auto mt-5 mb-5 rounded-md shadow-2xl sm:w-[35rem] lg:w-[50rem]">
+    <h2 class="pt-5 pr-4 text-xl sm:pr-10 sm:pt-7"> اکانت اسپاتیفای پریمیوم</h2>
+    <div class="lg:flex lg:flex-row lg:my-12 lg:mx-12">
+        <div class="my-8 w-60 m-auto rounded-xl flex sm:w-80 lg:m-0">
+            <img class=" rounded-xl shadow-xl" src="./files/pishro-spotify.png" alt="spotify">
+        </div>
+        <p class=" w-11/12 m-auto pb-7 text-center sm:w-96 lg:w-80 lg:m-0 lg:mt-16 lg:mr-14 lg:text-start lg:leading-8">
+            اسپاتیفای (Spotify)، یکی از بزرگ ترین سرویس های پخش موزیک و محتوای
+            صوتی مختلف در جهان است که به کاربران امکان دسترسی به میلیون ها موزیک و پادکست متنوع از هنرمندان مختلف در
+            سراسر جهان را می‌دهد.</p>
+    </div>
+    <p class="px-2.5 pb-6 text-center w-60 m-auto md:w-auto">برای مشاهده پلن های متنوع روی دکمه زیر کلیک کنید :</p>
+    <div class="m-auto w-fit pb-7">
+        <a class="bg-purple-600 text-white px-1.5 py-2 shadow-md rounded-md hover:bg-white hover:text-purple-600 text-lg border-2 border-purple-600 duration-500"
+           href="#"> ورود به صفحه خرید</a>
+    </div>
+</article>
+<footer>
+    <div class="h-32 bg-white m-4 rounded-md shadow-2xl flex flex-col justify-center items-center">
+        <p class="mb-2 text-sm">2023 © Copyright </p>
+        <p class="text-sm px-3 text-center">تمامی حقوق این وبسایت متعلق به فروشگاه اکانت هاب می باشد.</p>
+    </div>
+</footer>
+</body>
+</html>
