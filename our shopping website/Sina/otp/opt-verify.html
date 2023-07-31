@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>opt verify</title>
+</head>
+<body class="bg-purple-200 flex justify-center items-center h-screen">
+<div class="w-[17rem] h-[21rem] bg-white flex items-center justify-center rounded-md shadow-2xl sm:w-[23rem] sm:h-[23rem] lg:w-[32rem]">
+    <div>
+        <form action="." class="text-center">
+            <h1 class="mb-14 text-3xl">اکانت هاب</h1>
+            <p class="mb-5 text-sm sm:text-lg">ما کد تأیید را به شماره شما ارسال کردیم</p>
+            <label class="flex justify-center mb-12" id="code">
+                <input type="tel" class="w-10 h-10 text-center border-2 border-purple-600 m-2 rounded-md outline-none" autofocus>
+                <input type="tel" class="w-10 h-10 text-center border-2 border-purple-600 m-2 rounded-md outline-none"  >
+                <input type="tel" class="w-10 h-10 text-center border-2 border-purple-600 m-2 rounded-md outline-none">
+                <input type="tel" class="w-10 h-10 text-center border-2 border-purple-600 m-2 rounded-md outline-none">
+            </label>
+            <label>
+                <input type="submit" id="submit" value="تایید"
+                       class="bg-red-500 text-white px-6 pt-1 pb-2 rounded-md cursor-pointer shadow-md outline-none">
+            </label>
+        </form>
+    </div>
+</div>
+<script src="./main.js"></script>
+</body>
+</html>
